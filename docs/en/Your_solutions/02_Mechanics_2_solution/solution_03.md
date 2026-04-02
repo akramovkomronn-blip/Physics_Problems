@@ -17,3 +17,8 @@ At the bottom of the swing, all the gravitational potential energy ($mgh$) has b
 * **Calculation:** $v = \sqrt{2 \times 9.8 \times 0.0341}$
 * $v = \sqrt{0.66836}$
 * **$v \approx 0.817 \text{ m/s}$**
+
+**Key terms to remember:**
+* **$\cos(15^\circ)$:** "Cosine of fifteen degrees"
+* **$v = \sqrt{2gh}$:** "Velocity equals the square root of two $g$ $h$"
+* **Equilibrium position:** The very bottom of the swing.
