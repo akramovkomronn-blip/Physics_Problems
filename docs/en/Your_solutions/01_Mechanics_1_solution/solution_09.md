@@ -24,5 +24,4 @@ The **tennis ball** has greater momentum.
 
 Even though the fly is moving $10$ times faster, the tennis ball is $30$ times heavier. In the world of momentum, mass usually "wins" unless the smaller object is moving at an extreme speed.
 
-### **How to explain it to your professor:**
-> "I compared the momentum of both objects by multiplying their mass in kilograms by their velocity in meters per second. The fly's momentum is $0.02$, while the tennis ball's is $0.06$. Therefore, the tennis ball has **three times** the momentum of the fly."
+
