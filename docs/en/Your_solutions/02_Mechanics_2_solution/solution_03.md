@@ -17,19 +17,3 @@ At the bottom of the swing, all the gravitational potential energy ($mgh$) has b
 * **Calculation:** $v = \sqrt{2 \times 9.8 \times 0.0341}$
 * $v = \sqrt{0.66836}$
 * **$v \approx 0.817 \text{ m/s}$**
-
-
-
-[Image of energy conservation in a pendulum]
-
-
----
-
-### **Summary for your Professor**
-If you need to explain this, you can say:
-> "I calculated the vertical height the bob drops by using the geometry of the swing, which is **length times one minus the cosine of the angle**. Then, applying the conservation of energy, I found the velocity by taking the **square root of two $g$ $h$**. The final speed at the equilibrium point is approximately **$0.82$ meters per second**."
-
-**Key terms to remember:**
-* **$\cos(15^\circ)$:** "Cosine of fifteen degrees"
-* **$v = \sqrt{2gh}$:** "Velocity equals the square root of two $g$ $h$"
-* **Equilibrium position:** The very bottom of the swing.
