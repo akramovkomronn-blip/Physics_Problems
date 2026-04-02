@@ -1,4 +1,4 @@
-To solve these, we rely on the fundamental formula for the period of a simple pendulum:
+
 
 $$T = 2\pi \sqrt{\frac{L}{g}}$$
 
