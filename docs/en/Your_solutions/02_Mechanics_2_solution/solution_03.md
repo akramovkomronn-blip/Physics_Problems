@@ -1,4 +1,4 @@
-To find the speed of the pendulum bob at the bottom, the easiest way to explain it to your professor is through the **Conservation of Energy**. 
+
 
 Basically, the potential energy at the top of the swing converts entirely into kinetic energy at the bottom.
 
