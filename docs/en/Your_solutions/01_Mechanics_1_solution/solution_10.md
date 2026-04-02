@@ -25,7 +25,4 @@ To find the distance traveled, we find the speed and multiply by time.
 
 
 
----
 
-### How to explain it to your professor:
-> "The motion is an **elliptical helix**. I derived the trajectory by using the trig identity $\cos^2 + \sin^2 = 1$ to show the elliptical base. The path length is the integral of the velocity's magnitude. If $a$ and $b$ were equal, the speed would be constant, making it a standard circular helix."
