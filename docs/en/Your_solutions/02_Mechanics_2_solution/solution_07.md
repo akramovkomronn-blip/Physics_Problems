@@ -1,4 +1,4 @@
-Since your last question was about the **Dynamics with Friction** problem involving the stacked blocks, here is the simplified breakdown of the logic:
+
 
 ### The Core Concept
 The 10 kg block is being squeezed from both sides by friction. Think of it like trying to pull a rug out from under a heavy chair while the rug itself is also rubbing against the floor.
