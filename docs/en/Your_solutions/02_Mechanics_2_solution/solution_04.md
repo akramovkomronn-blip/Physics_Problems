@@ -1,51 +1,27 @@
-If you want the "easiest" way to explain this to your professor without getting tangled in complex math, focus on the **proportions**. Professors love it when you show "physical intuition"—basically, proving you understand how the world works without needing a calculator.
+To find the speed of the combined mass after the collision, we follow two simple steps: finding the speed of the first block before the collision and then applying the principle of conservation of momentum.
 
-Here are the "Easy Options" for your speech:
-
----
-
-### 1. The Pendulum on the Moon (The "Factor" Method)
-Instead of calculating every decimal, explain it by the **Factor of 6**.
-
-* **What to say:** "Since gravity on the Moon is **6 times weaker**, the pendulum's period increases by the **square root of 6**. So, I just multiply Earth's period (4 seconds) by $\sqrt{6}$. That gives me roughly **9.8 seconds**."
-* **The Logic:** Weaker gravity = Slower swing = Longer time.
+### Step 1: Find the speed of the 0.5 kg block at the bottom
+As the block slides down the frictionless track, its potential energy is converted into kinetic energy.
+* **Formula:** $v = \sqrt{2gh}$
+* **Calculation:** $v = \sqrt{2 \times 9.8 \, \text{m/s}^2 \times 3.0 \, \text{m}} = \sqrt{58.8} \approx 7.67 \, \text{m/s}$
 
 
 
----
+### Step 2: Find the speed after the collision
+When the 0.5 kg block hits the 1.5 kg block and they stick together, momentum is conserved.
+* **Mass 1 ($m_1$):** 0.5 kg
+* **Mass 2 ($m_2$):** 1.5 kg
+* **Initial velocity of Mass 1 ($v_1$):** 7.67 m/s
+* **Initial velocity of Mass 2 ($v_2$):** 0 m/s (at rest)
 
-### 2. The 1-Second Pendulum (The "Rule of Thumb")
-Instead of doing the heavy algebra, remember this physical fact.
-
-* **What to say:** "To get a period of exactly 1 second on Earth, the math shows we need a length of about **0.25 meters** (or 25 cm). It’s a helpful benchmark: a quarter-meter string gives you a 1-second swing."
-
----
-
-### 3. The 10 kg Spring (The "Stiffness" Logic)
-Focus on what the numbers represent in real life.
-
-* **What to say:** "The equation $x(t) = 0.2 \cos(10\pi t)$ tells us two things immediately. The **0.2** is how far the spring stretches (Amplitude), and the **$10\pi$** is how fast it vibrates. By using the mass and frequency, I found the spring constant $k$ is about **9,870 N/m**, which tells us this is a very stiff spring."
-
-
-
----
-
-### 4. The Collision (The "Train" Logic)
-This is the easiest way to explain the block problem.
-
-* **What to say:** "Think of it like a small train car hitting a big one and sticking. The first block picks up speed from the 3-meter drop. But when it hits the heavier block, the **total mass quadruples** (from 0.5 kg to 2.0 kg). Because the mass increased so much, the speed has to drop significantly to keep momentum the same. That's why it slows down to **1.92 m/s**."
+Using the conservation of momentum formula:
+$$m_1 v_1 + m_2 v_2 = (m_1 + m_2) v_f$$
+$$(0.5 \times 7.67) + (1.5 \times 0) = (0.5 + 1.5) \times v_f$$
+$$3.835 = 2.0 \times v_f$$
+$$v_f = \frac{3.835}{2.0} = 1.9175 \, \text{m/s}$$
 
 
 
-[Image of conservation of momentum inelastic collision]
+**Final Answer:**
+The speed of the combined mass just after the collision is approximately **1.92 m/s**.
 
-
----
-
-### 💡 The "Cheat Sheet" for your Presentation:
-If you want to look like an expert, use these three phrases:
-1.  **"Conservation of Energy"** (For the slide/drop).
-2.  **"Conservation of Momentum"** (For the collision/hit).
-3.  **"Inversely Proportional"** (For the Moon gravity).
-
-Does this "Factor" way of explaining feel easier for your speech?
