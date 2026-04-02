@@ -1,49 +1,35 @@
+To find the speed at the bottom, we use the principle of **Conservation of Mechanical Energy**. The potential energy at the top converts entirely into kinetic energy at the bottom.
 
-
-Basically, the potential energy at the top of the swing converts entirely into kinetic energy at the bottom.
-
----
-
-### 1. Find the Vertical Height ($h$)
-When you pull a pendulum back to an angle ($\theta$), it rises a certain height ($h$) relative to its lowest point. 
-Using trigonometry, the height is:
-$$h = L - L \cos(\theta) = L(1 - \cos(\theta))$$
-
-**Given:**
-* $L = 1.0 \text{ m}$
-* $\theta = 15^\circ$
-
-**Calculation:**
-$$h = 1.0 \times (1 - \cos(15^\circ))$$
-$$h = 1.0 \times (1 - 0.9659)$$
-$$h \approx 0.0341 \text{ meters}$$
+### 1. Find the Change in Height ($h$)
+When the pendulum is at an angle, it is slightly higher than its lowest point. We calculate this height difference using the length ($L$) and the angle ($\theta$):
+* **Formula:** $h = L - L\cos(\theta) = L(1 - \cos\theta)$
+* **Calculation:** $h = 1.0 \times (1 - \cos(15^\circ))$
+* Using $\cos(15^\circ) \approx 0.9659$:
+* $h = 1.0 \times (1 - 0.9659) = \mathbf{0.0341 \text{ m}}$
 
 
 
 ---
 
-### 2. Use Conservation of Energy
-The Potential Energy ($PE$) at the release point equals the Kinetic Energy ($KE$) at the bottom:
-$$mgh = \frac{1}{2}mv^2$$
+### 2. Solve for Speed ($v$)
+At the bottom of the swing, all the gravitational potential energy ($mgh$) has become kinetic energy ($\frac{1}{2}mv^2$). The mass ($m$) cancels out, leaving us with the standard formula for falling objects:
+* **Formula:** $v = \sqrt{2gh}$
+* **Calculation:** $v = \sqrt{2 \times 9.8 \times 0.0341}$
+* $v = \sqrt{0.66836}$
+* **$v \approx 0.817 \text{ m/s}$**
 
-Notice that the mass ($m$) cancels out on both sides, which means the speed doesn't depend on how heavy the bob is!
 
-**Solve for $v$:**
-$$v = \sqrt{2gh}$$
-$$v = \sqrt{2 \times 9.8 \times 0.0341}$$
-$$v = \sqrt{0.66836}$$
-$$v \approx \mathbf{0.817 \text{ m/s}}$$
+
+[Image of energy conservation in a pendulum]
+
 
 ---
 
-### 💡 How to explain this to your Professor:
-If you have to speak this out loud, here is your script:
+### **Summary for your Professor**
+If you need to explain this, you can say:
+> "I calculated the vertical height the bob drops by using the geometry of the swing, which is **length times one minus the cosine of the angle**. Then, applying the conservation of energy, I found the velocity by taking the **square root of two $g$ $h$**. The final speed at the equilibrium point is approximately **$0.82$ meters per second**."
 
-1.  **The Concept:** "I used the Principle of Conservation of Energy. I assumed no air resistance, so the energy at the release point must equal the energy at the bottom."
-2.  **The Height:** "First, I calculated the vertical drop. By using $L(1 - \cos\theta)$, I found that lifting the 1-meter string to $15^\circ$ raises the bob by about $3.4 \text{ cm}$."
-3.  **The Speed:** "I then set the potential energy ($mgh$) equal to kinetic energy ($\frac{1}{2}mv^2$). After canceling out the mass and solving for velocity, I found the bob reaches a speed of **$0.817 \text{ m/s}$** at the lowest point."
-4.  **The Pro Tip:** If they ask if mass matters, say: "No, the mass cancels out in the energy equation, so the speed depends only on the length and the initial angle."
-
-
-
-[Image of pendulum energy conservation PE and KE]
+**Key terms to remember:**
+* **$\cos(15^\circ)$:** "Cosine of fifteen degrees"
+* **$v = \sqrt{2gh}$:** "Velocity equals the square root of two $g$ $h$"
+* **Equilibrium position:** The very bottom of the swing.
