@@ -1,49 +1,24 @@
-To find the speed of the pendulum bob at the bottom of its swing, we use the **Law of Conservation of Energy**. This principle states that the total mechanical energy (potential + kinetic) remains constant throughout the swing, assuming there is no air resistance or friction.
+### Conservation of Energy: Pendulum Calculation
 
-### 1. Identify the Height Change
-First, we need to find the vertical height ($h$) the bob descends. When the pendulum is at an angle $\theta$, its vertical position relative to the pivot is $L \cos(\theta)$. The height relative to the bottom of the swing is:
+To find the speed $v$ at the bottom of the swing, we equate the initial potential energy at $15^\circ$ to the kinetic energy at the bottom.
 
-$$h = L - L \cos(\theta) = L(1 - \cos(\theta))$$
+#### 1. Vertical Height ($h$)
+The vertical distance the bob drops is calculated using the length $L$ and the release angle $\theta$:
+$$h = L(1 - \cos\theta)$$
+$$h = 1.0(1 - \cos 15^\circ)$$
+$$h \approx 0.03407\text{ m}$$
 
 
-
-**Given values:**
-* Length ($L$) = $1.0\text{ m}$
-* Angle ($\theta$) = $15^\circ$
-* Gravity ($g$) $\approx 9.81\text{ m/s}^2$
-
-**Calculation for $h$:**
-$$h = 1.0(1 - \cos(15^\circ))$$
-$$h \approx 1.0(1 - 0.9659) = 0.0341\text{ m}$$
 
 ---
 
-### 2. Apply Conservation of Energy
-At the release point (the top), the bob has **Gravitational Potential Energy (GPE)** and zero kinetic energy. At the bottom, all that potential energy has converted into **Kinetic Energy (KE)**.
-
-$$GPE_{top} = KE_{bottom}$$
-$$mgh = \frac{1}{2}mv^2$$
-
-Since mass ($m$) appears on both sides, it cancels out, showing that the speed doesn't depend on how heavy the bob is. We can solve for velocity ($v$):
-
+#### 2. Velocity Calculation ($v$)
+Using the conservation of energy equation $mgh = \frac{1}{2}mv^2$:
 $$v = \sqrt{2gh}$$
+$$v = \sqrt{2 \cdot 9.81 \cdot 0.03407}$$
+$$v = \sqrt{0.6685}$$
 
 ---
 
-### 3. Final Calculation
-Now, plug in the height we found:
-
-$$v = \sqrt{2 \cdot 9.81 \cdot 0.0341}$$
-$$v = \sqrt{0.669}$$
+#### Final Answer
 **$v \approx 0.818\text{ m/s}$**
-
----
-
-### Summary Table
-| Variable | Value |
-| :--- | :--- |
-| **Vertical Drop ($h$)** | $0.0341\text{ m}$ |
-| **Gravity ($g$)** | $9.81\text{ m/s}^2$ |
-| **Final Speed ($v$)** | **$0.82\text{ m/s}$** (rounded) |
-
-The pendulum bob will be moving at approximately **$0.82\text{ meters per second}$** when it reaches the lowest point of its arc.
