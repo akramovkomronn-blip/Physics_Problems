@@ -58,4 +58,3 @@ $$L = \frac{9.81}{39.478}$$
 $$L \approx 0.2484 \text{ meters}$$
 
 **Answer:** To have a period of exactly $1$ second on Earth, the pendulum must be approximately **$0.248$ meters** (or **$24.8$ cm**) long.
-
