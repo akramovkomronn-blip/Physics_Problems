@@ -1,56 +1,45 @@
-Let’s go step by step:
-
-### 1. Period on the Moon
-
-For a simple pendulum:
-[
-T = 2\pi \sqrt{\frac{L}{g}}
-]
-
-For the **same length**, the period depends on gravity as:
-[
-T \propto \frac{1}{\sqrt{g}}
-]
-
-Since the Moon’s gravity is ( g_{\text{moon}} = \frac{g}{6} ):
-
-[
-T_{\text{moon}} = T_{\text{earth}} \times \sqrt{\frac{g_{\text{earth}}}{g_{\text{moon}}}} = 4 \times \sqrt{6}
-]
-
-[
-T_{\text{moon}} \approx 4 \times 2.45 = 9.8 \text{ s}
-]
-
-**Answer:** ≈ **9.8 seconds**
+Use the pendulum formula:
+( T = 2\pi \sqrt{\frac{L}{g}} )
 
 ---
 
-### 2. Length for a 1-second period on Earth
+### 1) Period on the Moon
 
-Use:
+For the same pendulum length, (T \propto \frac{1}{\sqrt{g}}).
+
+On the Moon: ( g_{\text{moon}} = \frac{g_{\text{earth}}}{6} )
+
 [
-T = 2\pi \sqrt{\frac{L}{g}}
+T_{\text{moon}} = T_{\text{earth}} \cdot \sqrt{\frac{g_{\text{earth}}}{g_{\text{moon}}}}
+= 4 \cdot \sqrt{6}
+\approx 4 \cdot 2.45
+\approx 9.8 \text{ s}
 ]
 
-Solve for (L):
+✅ **Answer:** ≈ **9.8 seconds**
+
+---
+
+### 2) Length for a 1-second period on Earth
+
+Rearrange the formula:
 [
-L = g \left(\frac{T}{2\pi}\right)^2
+L = \frac{gT^2}{4\pi^2}
 ]
 
-Substitute (T = 1) s and (g = 9.8 , \text{m/s}^2):
+Using ( g \approx 9.8 , \text{m/s}^2 ), ( T = 1 , \text{s} ):
 
 [
-L = 9.8 \left(\frac{1}{2\pi}\right)^2
-\approx 9.8 \times 0.0253
+L = \frac{9.8 \cdot 1^2}{4\pi^2}
+\approx \frac{9.8}{39.48}
 \approx 0.248 \text{ m}
 ]
 
-**Answer:** ≈ **0.25 meters** (about **25 cm**)
+✅ **Answer:** ≈ **0.25 m** (about **25 cm**)
 
 ---
 
-### Final Answers:
+### Final answers:
 
-* Period on Moon: **≈ 9.8 s**
-* Required length (1 s period on Earth): **≈ 0.25 m**
+* **Period on the Moon:** ~**9.8 s**
+* **Required length (1 s period on Earth):** ~**0.25 m**
