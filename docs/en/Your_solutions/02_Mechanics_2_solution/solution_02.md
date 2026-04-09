@@ -1,61 +1,41 @@
-You’re given the motion:
+## Harmonic Motion Solution
 
-[
-x(t) = 0.2 \cos(10\pi t)
-]
+Given:
+x(t) = 0.2 cos(10πt)
 
-This matches the standard form of simple harmonic motion:
-
-[
-x(t) = A \cos(\omega t)
-]
+Compare with standard SHM:
+x(t) = A cos(ωt)
 
 So:
-
-* Amplitude ( A = 0.2 , \text{m} )
-* Angular frequency ( \omega = 10\pi , \text{rad/s} )
-* Mass ( m = 10 , \text{kg} )
-
----
-
-### 1. Spring constant ( k )
-
-Use the relation:
-[
-\omega = \sqrt{\frac{k}{m}} \Rightarrow k = m \omega^2
-]
-
-[
-k = 10 \cdot (10\pi)^2 = 10 \cdot 100\pi^2 = 1000\pi^2
-]
-
-[
-k \approx 1000 \cdot 9.87 \approx 9870 , \text{N/m}
-]
+A = 0.2 m  
+ω = 10π rad/s  
+m = 10 kg  
 
 ---
 
-### 2. Total mechanical energy ( E )
+### 1. Spring Constant (k)
 
-[
-E = \frac{1}{2} k A^2
-]
+Formula:
+ω = √(k/m) ⇒ k = mω²
 
-[
-E = \frac{1}{2} \cdot (1000\pi^2) \cdot (0.2)^2
-]
-
-[
-E = \frac{1}{2} \cdot 1000\pi^2 \cdot 0.04 = 20\pi^2
-]
-
-[
-E \approx 20 \cdot 9.87 \approx 197 , \text{J}
-]
+k = 10 × (10π)²  
+k = 10 × 100π²  
+k = 1000π² ≈ 9870 N/m  
 
 ---
 
-### ✅ Final Answers:
+### 2. Total Mechanical Energy (E)
 
-* Spring constant: ( k \approx 9870 , \text{N/m} )
-* Total mechanical energy: ( E \approx 197 , \text{J} )
+Formula:
+E = (1/2) k A²
+
+E = (1/2) × 1000π² × (0.2)²  
+E = (1/2) × 1000π² × 0.04  
+E = 20π² ≈ 197 J  
+
+---
+
+### Final Answers
+
+k ≈ 9870 N/m  
+E ≈ 197 J  
