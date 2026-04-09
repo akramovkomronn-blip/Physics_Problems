@@ -1,45 +1,68 @@
-To format these physics problems for a GitHub README or a markdown file, you can use the code block below. This uses standard Markdown syntax with LaTeX for clean math rendering.
+```python?code_reference&code_event_index=2
+import numpy as np
 
-```markdown
-# Physics Problems: Oscillations and Gravitation
+m = 10
+A = 0.2
+omega = 10 * np.pi
 
-## 1. Gravitational Dependence
-**Problem:** A simple pendulum has a period of 4 seconds on Earth. What would its period be on the Moon, where the gravitational acceleration is about 1/6th of Earth's? What is the required length of a simple pendulum to have a period of exactly 1 second on Earth?
+k = m * (omega**2)
+E = 0.5 * k * (A**2)
 
-### Solution
-The period of a simple pendulum is defined by:
-$$T = 2\pi \sqrt{\frac{L}{g}}$$
+print(f"{k=}")
+print(f"{E=}")
 
-#### Part A: Period on the Moon
-Given $T_{Earth} = 4\text{s}$ and $g_{Moon} = \frac{1}{6}g_{Earth}$:
-* Since $T \propto \frac{1}{\sqrt{g}}$, the new period is $T_{Moon} = T_{Earth} \times \sqrt{6}$.
-* $T_{Moon} = 4 \times \sqrt{6} \approx \mathbf{9.80\text{s}}$
 
-#### Part B: Required Length on Earth
-To find $L$ for $T = 1\text{s}$ on Earth ($g \approx 9.81\text{m/s}^2$):
-* Rearranging for $L$: $L = \frac{T^2 g}{4\pi^2}$
-* $L = \frac{1^2 \times 9.81}{4\pi^2} \approx \mathbf{0.248\text{m}}$ (or $24.8\text{cm}$)
+```
+```text?code_stdout&code_event_index=2
+k=9869.604401089358
+E=197.3920880217872
+
+```
+To find the spring constant and the total mechanical energy, we start by analyzing the given displacement equation for simple harmonic motion:
+
+$$x(t) = 0.2 \cos(10\pi t)$$
+
+The standard form for the displacement of an oscillating mass is:
+$$x(t) = A \cos(\omega t + \phi)$$
+
+From the equation, we can identify:
+* **Amplitude ($A$):** $0.2 \text{ m}$
+* **Angular frequency ($\omega$):** $10\pi \text{ rad/s}$
+* **Mass ($m$):** $10 \text{ kg}$
 
 ---
 
-## 2. Harmonic Motion
-**Problem:** A 10 kg mass is attached to a spring and oscillates according to the equation $x(t) = 0.2\cos(10\pi t)$ (in meters). What is the spring constant $k$? What is the total mechanical energy of the system?
+### 1. Spring Constant ($k$)
+The angular frequency $\omega$ of a mass-spring system is related to the mass and spring constant by the formula:
+$$\omega = \sqrt{\frac{k}{m}}$$
 
-### Solution
-From the equation $x(t) = A\cos(\omega t)$, we identify:
-* **Amplitude ($A$):** $0.2\text{ m}$
-* **Angular Frequency ($\omega$):** $10\pi\text{ rad/s}$
-* **Mass ($m$):** $10\text{ kg}$
+Squaring both sides and solving for $k$:
+$$k = m \omega^2$$
 
-#### Part A: Spring Constant ($k$)
-Using the relation $\omega^2 = \frac{k}{m}$:
-* $k = m\omega^2$
-* $k = 10 \times (10\pi)^2 = 1000\pi^2$
-* $k \approx \mathbf{9869.60\text{ N/m}}$
+Substituting the known values:
+$$k = 10 \cdot (10\pi)^2$$
+$$k = 10 \cdot 100\pi^2$$
+$$k = 1000\pi^2 \text{ N/m}$$
 
-#### Part B: Total Mechanical Energy ($E$)
-Using the energy formula $E = \frac{1}{2}kA^2$:
-* $E = \frac{1}{2}(1000\pi^2)(0.2)^2$
-* $E = 20\pi^2$
-* $E \approx \mathbf{197.39\text{ J}}$
-```
+Using $\pi^2 \approx 9.87$:
+$$k \approx 9869.6 \text{ N/m}$$
+
+---
+
+### 2. Total Mechanical Energy ($E$)
+The total mechanical energy in a simple harmonic oscillator is given by the sum of kinetic and potential energy, which remains constant and is equal to the maximum potential energy at the amplitude:
+$$E = \frac{1}{2} k A^2$$
+
+Substituting the values for $k$ and $A$:
+$$E = \frac{1}{2} (1000\pi^2) (0.2)^2$$
+$$E = 500\pi^2 \cdot 0.04$$
+$$E = 20\pi^2 \text{ J}$$
+
+Using $\pi^2 \approx 9.87$:
+$$E \approx 197.39 \text{ J}$$
+
+---
+
+### **Summary of Results**
+* **Spring Constant ($k$):** $1000\pi^2 \text{ N/m} \approx 9869.6 \text{ N/m}$
+* **Total Mechanical Energy ($E$):** $20\pi^2 \text{ J} \approx 197.4 \text{ J}$
