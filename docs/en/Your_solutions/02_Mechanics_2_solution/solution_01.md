@@ -1,23 +1,3 @@
-```python?code_reference&code_event_index=2
-import math
-
-# Part 1
-T_earth = 4
-T_moon = T_earth * math.sqrt(6)
-
-# Part 2
-g_earth = 9.80665 # standard gravity
-T_target = 1
-L = (T_target**2 * g_earth) / (4 * math.pi**2)
-
-print(f"{T_moon=}")
-print(f"{L=}")
-
-
-```
-```text?code_stdout&code_event_index=2
-T_moon=9.797958971132712
-L=0.24840534639153292
 
 ```
 To find the period of a pendulum on the Moon and the required length for a specific period on Earth, we use the standard formula for the period of a simple pendulum:
