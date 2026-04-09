@@ -1,52 +1,44 @@
-## Harmonic Motion Solution
+# Physics Solution: Harmonic Motion
 
-### Given:
-The motion of the mass is:
-x(t) = 0.2 cos(10πt)
+Given the displacement equation:
+$x(t) = 0.2 \cos(10\pi t)$
 
-This matches the standard simple harmonic motion form:
-x(t) = A cos(ωt)
-
-So we identify:
-- Amplitude, A = 0.2 m
-- Angular frequency, ω = 10π rad/s
-- Mass, m = 10 kg
+We can identify the following parameters:
+* **Amplitude ($A$):** $0.2 \text{ m}$
+* **Angular frequency ($\omega$):** $10\pi \text{ rad/s}$
+* **Mass ($m$):** $10 \text{ kg}$
 
 ---
 
-### 1. Spring Constant (k)
+## 1. Finding the Spring Constant ($k$)
 
-We use the formula:
-ω = √(k/m)
+The relationship between angular frequency, mass, and the spring constant is defined by:
+$$\omega = \sqrt{\frac{k}{m}}$$
 
-Rearrange to solve for k:
-k = mω²
+Rearranging for $k$:
+$$k = m \omega^2$$
 
-Substitute the values:
-k = 10 × (10π)²  
-k = 10 × 100π²  
-k = 1000π²  
+**Calculation:**
+* $k = 10 \cdot (10\pi)^2$
+* $k = 10 \cdot 100\pi^2$
+* $k = 1000\pi^2 \text{ N/m}$
 
-Approximate value:
-k ≈ 9870 N/m
-
----
-
-### 2. Total Mechanical Energy (E)
-
-We use the formula:
-E = (1/2) k A²
-
-Substitute the values:
-E = (1/2) × 1000π² × (0.2)²  
-E = (1/2) × 1000π² × 0.04  
-E = 20π²  
-
-Approximate value:
-E ≈ 197 J
+**Result:** $k \approx 9869.6 \text{ N/m}$
 
 ---
 
-### Final Answers:
-- Spring constant: k ≈ 9870 N/m  
-- Total mechanical energy: E ≈ 197 J  
+## 2. Finding Total Mechanical Energy ($E$)
+
+The total mechanical energy in a simple harmonic oscillator is constant and calculated using the amplitude:
+$$E = \frac{1}{2} k A^2$$
+
+**Calculation:**
+* $E = \frac{1}{2} (1000\pi^2) (0.2)^2$
+* $E = 500\pi^2 \cdot 0.04$
+* $E = 20\pi^2 \text{ J}$
+
+**Result:** $E \approx 197.4 \text{ J}$
+
+---
+
+> **Note:** These calculations assume an ideal system with no friction or air resistance (damping).
