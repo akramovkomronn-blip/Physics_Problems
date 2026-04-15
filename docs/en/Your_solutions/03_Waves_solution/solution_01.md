@@ -2,7 +2,9 @@
 
 To find the wavelength ($\lambda$), we use the fundamental wave equation:
 
-$$v = f \lambda \implies \lambda = \frac{v}{f}$$
+$$v = f \lambda \implies \lambda = 
+
+\frac{v}{f}$$
 
 ---
 
