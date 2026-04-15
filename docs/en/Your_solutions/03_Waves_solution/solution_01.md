@@ -11,7 +11,7 @@ $$v = f \lambda \implies \lambda =
 #### 1. Wavelength in Air
 
 * **Frequency ($f$):** $440\text{ Hz}$
-* 
+ 
 * **Speed in Air ($v_{air}$):** $343\text{ m/s}$
 
 $$\lambda_{air} = \frac{343}{440}$$
@@ -23,7 +23,7 @@ $$\lambda_{air} = \frac{343}{440}$$
 #### 2. Wavelength in Water
 
 * **Frequency ($f$):** $440\text{ Hz}$ (Frequency remains constant when a wave changes media)
-* 
+
 * **Speed in Water ($v_{water}$):** $1482\text{ m/s}$
 
 
