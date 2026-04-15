@@ -60,9 +60,6 @@ $$v = 25\text{ Hz} \cdot 1.0\text{ m}$$
 | Property | Value |
 | :--- | :--- |
 | **Amplitude ($A$)** | $0.05\text{ m}$ |
-
 | **Wavelength ($\lambda$)** | $1.0\text{ m}$ |
-
 | **Frequency ($f$)** | $25\text{ Hz}$ |
-
 | **Wave Speed ($v$)** | $25\text{ m/s}$ |
