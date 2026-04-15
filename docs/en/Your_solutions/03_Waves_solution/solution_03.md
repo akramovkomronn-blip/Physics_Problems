@@ -6,7 +6,9 @@ When two waves with the same amplitude, frequency, and wavelength travel in oppo
 
 Using the principle of superposition, the resultant displacement $y(x,t)$ is the sum of the two waves:
 
+
 $$y(x,t) = y_1 + y_2 = A\sin(kx - \omega t) + A\sin(kx + \omega t)$$
+
 
 Applying the trigonometric identity $\sin(\alpha) + \sin(\beta) = 2\sin\left(\frac{\alpha+\beta}{2}\right)\cos\left(\frac{\alpha-\beta}{2}\right)$:
 
