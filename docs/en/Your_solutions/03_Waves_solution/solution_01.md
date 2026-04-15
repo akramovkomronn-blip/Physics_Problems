@@ -1,21 +1,32 @@
-Use the wave equation:
-[
-\lambda = \frac{v}{f}
-]
+### Wave Properties: Wavelength Calculation
 
-### In air:
+To find the wavelength ($\lambda$), we use the fundamental wave equation:
+$$v = f \lambda \implies \lambda = \frac{v}{f}$$
 
-[
-\lambda_{\text{air}} = \frac{343}{440} \approx 0.78 \text{ m}
-]
+---
 
-### In water:
+#### 1. Wavelength in Air
+* **Frequency ($f$):** $440\text{ Hz}$
+* **Speed in Air ($v_{air}$):** $343\text{ m/s}$
 
-[
-\lambda_{\text{water}} = \frac{1482}{440} \approx 3.37 \text{ m}
-]
+$$\lambda_{air} = \frac{343}{440}$$
+**$\lambda_{air} \approx 0.780\text{ m}$**
 
-### Final answers:
+---
 
-* Wavelength in air ≈ **0.78 m**
-* Wavelength in water ≈ **3.37 m**
+#### 2. Wavelength in Water
+* **Frequency ($f$):** $440\text{ Hz}$ (Frequency remains constant when a wave changes media)
+* **Speed in Water ($v_{water}$):** $1482\text{ m/s}$
+
+
+
+$$\lambda_{water} = \frac{1482}{440}$$
+**$\lambda_{water} \approx 3.368\text{ m}$**
+
+---
+
+#### Summary Table
+| Medium | Speed ($v$) | Frequency ($f$) | Wavelength ($\lambda$) |
+| :--- | :--- | :--- | :--- |
+| **Air** | $343\text{ m/s}$ | $440\text{ Hz}$ | **$0.78\text{ m}$** |
+| **Water** | $1482\text{ m/s}$ | $440\text{ Hz}$ | **$3.37\text{ m}$** |
