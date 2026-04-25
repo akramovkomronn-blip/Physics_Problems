@@ -2,8 +2,11 @@ To solve for the net force on the center charge, we look at the symmetry of the 
 
 ### 1. The Setup
 * **Corner Charges ($q$):** Four charges of $+1.0 \text{ C}$ each.
+  
 * **Center Charge ($Q$):** One charge of $-2.0 \text{ C}$.
+  
 * **Square Side ($s$):** $1.0 \text{ m}$.
+  
 
 
 
