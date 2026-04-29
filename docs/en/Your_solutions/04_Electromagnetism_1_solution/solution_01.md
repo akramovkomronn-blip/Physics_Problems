@@ -4,7 +4,7 @@ Let’s go step by step.
 
 ### **Step 1: Understand the setup**
 
-* Four charges: (+1.0 , \ text {C} ) at the **corners of a square**
+* Four charges: $(+1.0 , \text {C})$ at the **corners of a square**
 * Side of square: (1.0 , \text{m})
 * A charge: (-2.0 , \text{C}) at the **center**
 
