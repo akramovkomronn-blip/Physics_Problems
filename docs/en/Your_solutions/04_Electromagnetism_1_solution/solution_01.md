@@ -61,7 +61,7 @@ F = k \frac{|q_1 q_2|}{r^2}
 
 Where:
 
-*$ (k = 9.0 \times 10^9 , \text{N·m}^2/\text{C}^2)$
+* $(k = 9.0 \times 10^9 , \text{N·m}^2/\text{C}^2)$
 
 * $(q_1 = +1.0 , \text{C})$
   
