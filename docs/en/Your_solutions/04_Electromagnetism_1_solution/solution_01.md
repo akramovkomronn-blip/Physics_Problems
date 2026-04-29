@@ -1,38 +1,30 @@
-At first glance this looks like a messy vector-addition problem—but there’s a symmetry trick that makes it almost trivial.
+Let’s go step by step.
 
+---
 
+### **Step 1: Understand the setup**
 
-### Step 1: Understand the setup
+* Four charges: (+1.0 , \text{C}) at the **corners of a square**
+* Side of square: (1.0 , \text{m})
+* A charge: (-2.0 , \text{C}) at the **center**
 
+We are asked for the **net electric force** on the center charge.
 
-* Four identical charges: (+1.0\ \text{C}) at the corners of a square (side (1.0\ \text{m}))
+---
 
-  
-* A charge ( -2.0\ \text{C} ) at the center
+### **Step 2: Distance from center to each corner**
 
-  
-* We want the **net electric force** on the কেন্দer charge
-
-  
-
-### Step 2:     Distance from center to each corner
-
-
-For a square of side (a = 1.0\ \text{m}), the distance from the center to a corner is:
-
+For a square of side (a = 1.0\ \text{m}), the distance from center to a corner is:
 
 [
-
-r = \frac{a}{\sqrt{2}} = \frac{1}{\sqrt{2}} \ \text{m}
-
+r = \frac{\sqrt{2}}{2} \cdot a = \frac{\sqrt{2}}{2} \cdot 1 = \frac{\sqrt{2}}{2} \approx 0.707 , \text{m}
 ]
 
+---
 
+### **Step 3: Use Coulomb’s Law**
 
-### Step 3: Force from one corner charge
-
-
-Using Coulomb’s Law:
+Coulomb’s Law:
 
 [
 F = k \frac{|q_1 q_2|}{r^2}
@@ -40,59 +32,72 @@ F = k \frac{|q_1 q_2|}{r^2}
 
 Where:
 
-* (k = 9.0 \times 10^9\ \text{N·m}^2/\text{C}^2)
-
-  
-* (q_1 = 1.0\ \text{C},\ q_2 = 2.0\ \text{C})
-
-  
-* (r^2 = \frac{1}{2})
+* (k = 9.0 \times 10^9 , \text{N·m}^2/\text{C}^2)
+* (q_1 = +1.0 , \text{C})
+* (q_2 = -2.0 , \text{C})
+* (r = 0.707 , \text{m})
 
 [
-F_{\text{one}} = 9.0 \times 10^9 \cdot \frac{2}{1/2}
-
-= 9.0 \times 10^9 \cdot 4
-
-= 3.6 \times 10^{10}\ \text{N}
-
+F = 9.0 \times 10^9 \cdot \frac{2}{(0.707)^2}
 ]
-
-Each force points **toward the corner** (because opposite charges attract).
-
-
-### Step 4:    Vector symmetry
-
-
-Now the key idea:
-
-
-
-* The four forces are equal in magnitude
-  
-* They point toward the four corners (diagonally outward)
-  
-* Opposite corners produce forces in exactly opposite directions
-  
-
-So:
-
-* Forces cancel pairwise
-* The vector sum is **zero**
-
-### Final Answer:
 
 [
-\boxed{\text{Net force} = 0\ \text{N}}
+(0.707)^2 \approx 0.5
 ]
 
-### Direction:
+[
+F = 9.0 \times 10^9 \cdot \frac{2}{0.5} = 9.0 \times 10^9 \cdot 4
+]
 
-There is **no direction**, because the net force is zero.
+[
+F = 3.6 \times 10^{10} , \text{N}
+]
+
+So, **each corner exerts a force of (3.6 \times 10^{10} , \text{N})** on the center charge.
 
 ---
 
-### Insight:
+### **Step 4: Direction of each force**
 
-This is a classic symmetry result: whenever identical charges are arranged symmetrically around a point, the electric field (and thus force on a charge placed there) cancels out.
+* The center charge is **negative**
+* Corner charges are **positive**
+  → Forces are **attractive**, so each force points **from the center toward each corner**
 
-If you’d like, I can show how this changes if one charge is different—that’s where it gets interesting.
+---
+
+### **Step 5: Resolve symmetry**
+
+There are **4 identical forces**, each pointing toward a corner.
+
+These forces are:
+
+* Equal in magnitude
+* Symmetrically distributed (every 90°)
+
+Opposite forces cancel:
+
+* Top-left cancels bottom-right
+* Top-right cancels bottom-left
+
+---
+
+### **Step 6: Net force**
+
+Because of perfect symmetry:
+
+[
+\boxed{F_{\text{net}} = 0}
+]
+
+---
+
+### **Final Answer**
+
+* **Magnitude:** (0 , \text{N})
+* **Direction:** None (forces cancel completely)
+
+---
+
+### **Key insight**
+
+Even though each force is huge, symmetry makes the total force zero.
