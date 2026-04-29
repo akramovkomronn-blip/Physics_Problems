@@ -19,9 +19,17 @@ $$F_e = \frac{(8.99 \times 10^9) (1.602 \times 10^{-19})^2}{(5.3 \times 10^{-11}
 ---
 
 ### 3. Calculate the Gravitational Force ($F_g$)
+
+
 Using Newton’s Law of Universal Gravitation:
+
+
 $$F_g = \frac{G m_e m_p}{r^2}$$
+
+
 $$F_g = \frac{(6.67 \times 10^{-11}) (9.11 \times 10^{-31}) (1.67 \times 10^{-27})}{(5.3 \times 10^{-11})^2}$$
+
+
 **$F_g \approx 3.61 \times 10^{-47} \text{ N}$**
 
 ---
