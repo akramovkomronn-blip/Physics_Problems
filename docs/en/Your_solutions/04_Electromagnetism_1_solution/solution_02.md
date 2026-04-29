@@ -1,35 +1,4 @@
-```python?code_reference&code_event_index=2
-import math
 
-# Constants
-k = 8.9875517923e9  # Coulomb's constant in N*m^2/C^2
-s = 1.0  # side length in m
-
-# Charges in C
-q1 = 1.0
-q2 = -2.0
-q3 = 3.0
-q4 = -4.0
-
-# Distance from center to each corner
-r = s / math.sqrt(2)
-
-# Total potential V = sum(k*qi/r) = (k/r) * sum(qi)
-q_sum = q1 + q2 + q3 + q4
-v_center = (k / r) * q_sum
-
-print(f"{r=}")
-print(f"{q_sum=}")
-print(f"{v_center=}")
-
-
-```
-```text?code_stdout&code_event_index=2
-r=0.7071067811865475
-q_sum=-2.0
-v_center=-25420635274.402557
-
-```
 To calculate the electric potential at the center of the square, we use the principle of superposition. The total electric potential ($V$) at a point due to multiple point charges is the algebraic sum of the potentials created by each charge individually.
 
 ### 1. Identify the Geometry
