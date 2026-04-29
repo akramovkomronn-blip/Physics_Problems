@@ -29,7 +29,7 @@ We are asked for the **net electric force** on the center charge.
 
 ### **Step 2: Distance from center to each corner**
 
-For a square of side (a = 1.0\ \text{m}), the distance from center to a corner is:
+For a square of side $(a = 1.0\ \text{m})$, the distance from center to a corner is:
 
 
 
