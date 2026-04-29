@@ -1,9 +1,16 @@
 To find the equilibrium position for the third charge $q_3$, we need to find the point where the net electric force acting on it is zero. Since $q_1$, $q_2$, and $q_3$ are all positive, $q_3$ will be repelled by both $q_1$ and $q_2$. Equilibrium occurs where these two opposing forces are equal in magnitude.
 
 ### 1. Set Up the Variables
+
+
 * $q_1 = +4 \text{ C}$ (placed at the origin, $x = 0$)
+
+  
 * $q_2 = +9 \text{ C}$ (placed at $x = 2 \text{ m}$)
+
+  
 * $q_3 = +1 \text{ C}$ (placed at some distance $x$ from $q_1$)
+  
 * The distance from $q_3$ to $q_2$ is $(2 - x)$
 
 
