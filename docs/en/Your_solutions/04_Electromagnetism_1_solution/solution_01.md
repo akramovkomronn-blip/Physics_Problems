@@ -4,15 +4,22 @@ Let’s go step by step.
 
 ### **Step 1: Understand the setup**
 
+
+
 * Four charges: $(+1.0 , \text {C})$ at the **corners of a square**
+
+  
 * Side of square: $(1.0 , \text{m})$
-* A charge: (-2.0 , \text{C}) at the **center**
+
+  
+* A charge: $(-2.0 , \text{C})$ at the **center**
+
+  
 
 We are asked for the **net electric force** on the center charge.
 
----
 
-### **Step 2: Distance from center to each corner**
+                      ### **Step 2: Distance from center to each corner**
 
 For a square of side (a = 1.0\ \text{m}), the distance from center to a corner is:
 
