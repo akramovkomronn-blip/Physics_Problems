@@ -1,48 +1,70 @@
-Electric potential is a scalar, so we simply add contributions from all four charges.
+```python?code_reference&code_event_index=2
+import math
 
-### 1. Distance from center to each corner
+# Constants
+k = 8.9875517923e9  # Coulomb's constant in N*m^2/C^2
+s = 1.0  # side length in m
 
-For a square of side (a = 1.0,\text{m}), the distance from the center to any corner is:
-[
-r = \sqrt{\left(\frac{a}{2}\right)^2 + \left(\frac{a}{2}\right)^2}
-= \sqrt{\frac{1}{4} + \frac{1}{4}}
-= \sqrt{\frac{1}{2}}
-= \frac{1}{\sqrt{2}} \approx 0.707,\text{m}
-]
+# Charges in C
+q1 = 1.0
+q2 = -2.0
+q3 = 3.0
+q4 = -4.0
 
-### 2. Total charge contribution
+# Distance from center to each corner
+r = s / math.sqrt(2)
 
-[
-q_{\text{total}} = (+1) + (-2) + (+3) + (-4) = -2,\text{C}
-]
+# Total potential V = sum(k*qi/r) = (k/r) * sum(qi)
+q_sum = q1 + q2 + q3 + q4
+v_center = (k / r) * q_sum
 
-### 3. Electric potential at the center
+print(f"{r=}")
+print(f"{q_sum=}")
+print(f"{v_center=}")
 
-Since all charges are the same distance from the center:
-[
-V = \frac{k}{r}(q_1 + q_2 + q_3 + q_4)
-]
 
-[
-V = \frac{9\times 10^9}{1/\sqrt{2}} \cdot (-2)
-]
+```
+```text?code_stdout&code_event_index=2
+r=0.7071067811865475
+q_sum=-2.0
+v_center=-25420635274.402557
 
-[
-V = 9\times 10^9 \cdot (-2)\sqrt{2}
-]
+```
+To calculate the electric potential at the center of the square, we use the principle of superposition. The total electric potential ($V$) at a point due to multiple point charges is the algebraic sum of the potentials created by each charge individually.
 
-[
-V \approx 9\times 10^9 \cdot (-2.828)
-]
+### 1. Identify the Geometry
+The charges are placed at the corners of a square with side length $s = 1.0 \text{ m}$.
+The distance ($r$) from each corner to the center of the square is half the length of the diagonal.
+The diagonal $d$ of a square is given by:
+$$d = s\sqrt{2} = 1.0 \cdot \sqrt{2} \text{ m}$$
+Therefore, the distance from each charge to the center is:
+$$r = \frac{d}{2} = \frac{\sqrt{2}}{2} \text{ m} \approx 0.707 \text{ m}$$
 
-### 4. Final answer
 
-[
-V \approx -2.55 \times 10^{10}\ \text{V}
-]
 
-### ✔️ Final result:
+### 2. Identify the Charges
+The charges are given as:
+* $q_1 = +1.0 \text{ C}$
+* $q_2 = -2.0 \text{ C}$
+* $q_3 = +3.0 \text{ C}$
+* $q_4 = -4.0 \text{ C}$
 
-[
-\boxed{V \approx -2.5 \times 10^{10}\ \text{volts}}
-]
+The sum of the charges is:
+$$\sum q = 1.0 - 2.0 + 3.0 - 4.0 = -2.0 \text{ C}$$
+
+### 3. Calculate the Potential
+The formula for the electric potential at a distance $r$ from a point charge $q$ is:
+$$V = \frac{k q}{r}$$
+where $k$ is Coulomb's constant ($k \approx 8.99 \times 10^9 \text{ N}\cdot\text{m}^2/\text{C}^2$).
+
+Since all charges are at the same distance $r$ from the center, the total potential $V_{total}$ is:
+$$V_{total} = \frac{k}{r} \sum q$$
+
+Plugging in the values:
+$$V_{total} = \frac{8.99 \times 10^9 \text{ N}\cdot\text{m}^2/\text{C}^2}{0.7071 \text{ m}} \times (-2.0 \text{ C})$$
+$$V_{total} = -2\sqrt{2} \cdot k$$
+$$V_{total} \approx -2 \times 1.414 \times 8.99 \times 10^9 \text{ V}$$
+$$V_{total} \approx -2.54 \times 10^{10} \text{ V}$$
+
+**Final Answer:**
+The electric potential at the center of the square is approximately **$-2.54 \times 10^{10} \text{ V}$**.
