@@ -1,42 +1,98 @@
-To solve for the net force on the center charge, we look at the symmetry of the system. In many physics problems, symmetry is your best friend—it often does half the work for you.
+At first glance this looks like a messy vector-addition problem—but there’s a symmetry trick that makes it almost trivial.
 
-### 1. The Setup
-* **Corner Charges ($q$):** Four charges of $+1.0 \text{ C}$ each.
+
+
+### Step 1: Understand the setup
+
+
+* Four identical charges: (+1.0\ \text{C}) at the corners of a square (side (1.0\ \text{m}))
+
   
-* **Center Charge ($Q$):** One charge of $-2.0 \text{ C}$.
+* A charge ( -2.0\ \text{C} ) at the center
+
   
-* **Square Side ($s$):** $1.0 \text{ m}$.
+* We want the **net electric force** on the কেন্দer charge
+
   
 
+### Step 2:     Distance from center to each corner
 
 
-### 2. Geometry
-To calculate the force, we need the distance ($r$) from any corner to the center of the square.
-The diagonal of the square is $d = s\sqrt{2} = 1.0\sqrt{2} \text{ m}$.
-The distance $r$ is half of the diagonal:
-$$r = \frac{\sqrt{2}}{2} \text{ m}$$
+For a square of side (a = 1.0\ \text{m}), the distance from the center to a corner is:
 
-### 3. Force Analysis
-Coulomb's Law states that the magnitude of the force between two charges is:
-$$F = k \frac{|qQ|}{r^2}$$
 
-However, before we plug in the numbers, let's look at the **vectors**:
-1.  **Top-Left Charge:** Pulls the center charge $(-2.0 \text{ C})$ toward the top-left corner.
-2.  **Bottom-Right Charge:** Pulls the center charge toward the bottom-right corner with the **exact same magnitude**.
-3.  **Top-Right Charge:** Pulls the center charge toward the top-right corner.
-4.  **Bottom-Left Charge:** Pulls the center charge toward the bottom-left corner with the **exact same magnitude**.
+[
 
-### 4. Vector Summation
-Because the charges at opposite corners are identical and the distances to the center are equal, the force vectors act in directly opposite directions:
-* The force from the top-left corner is canceled out by the force from the bottom-right corner.
-* The force from the top-right corner is canceled out by the force from the bottom-left corner.
+r = \frac{a}{\sqrt{2}} = \frac{1}{\sqrt{2}} \ \text{m}
 
-$$\sum \vec{F} = \vec{F}_{TL} + \vec{F}_{BR} + \vec{F}_{TR} + \vec{F}_{BL} = 0$$
+]
+
+
+
+### Step 3: Force from one corner charge
+
+
+Using Coulomb’s Law:
+
+[
+F = k \frac{|q_1 q_2|}{r^2}
+]
+
+Where:
+
+* (k = 9.0 \times 10^9\ \text{N·m}^2/\text{C}^2)
+
+  
+* (q_1 = 1.0\ \text{C},\ q_2 = 2.0\ \text{C})
+
+  
+* (r^2 = \frac{1}{2})
+
+[
+F_{\text{one}} = 9.0 \times 10^9 \cdot \frac{2}{1/2}
+
+= 9.0 \times 10^9 \cdot 4
+
+= 3.6 \times 10^{10}\ \text{N}
+
+]
+
+Each force points **toward the corner** (because opposite charges attract).
+
+
+### Step 4:    Vector symmetry
+
+
+Now the key idea:
+
+
+
+* The four forces are equal in magnitude
+  
+* They point toward the four corners (diagonally outward)
+  
+* Opposite corners produce forces in exactly opposite directions
+  
+
+So:
+
+* Forces cancel pairwise
+* The vector sum is **zero**
+
+### Final Answer:
+
+[
+\boxed{\text{Net force} = 0\ \text{N}}
+]
+
+### Direction:
+
+There is **no direction**, because the net force is zero.
 
 ---
 
-### **Final Answer**
-* **Magnitude:** $0 \text{ N}$
-* **Direction:** Undefined (the charge is in equilibrium).
+### Insight:
 
-The net electric force on the center charge is **zero** because the forces from the four identical corner charges perfectly cancel each other out due to the square's symmetry.
+This is a classic symmetry result: whenever identical charges are arranged symmetrically around a point, the electric field (and thus force on a charge placed there) cancels out.
+
+If you’d like, I can show how this changes if one charge is different—that’s where it gets interesting.
