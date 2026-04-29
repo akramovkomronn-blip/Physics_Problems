@@ -128,7 +128,11 @@ $[
 
 ### **Final Answer**
 
-* **Magnitude:** $(0 , \text{N})4
+* **Magnitude:** $(0 , \text{N})$
+
+
+
+
 * **Direction:** None $(forces cancel completely)$
 
 ---
