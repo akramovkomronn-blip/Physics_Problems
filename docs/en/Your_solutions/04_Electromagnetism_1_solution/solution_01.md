@@ -2,7 +2,11 @@
 
 
 
-* Four charges: (+1.0 , \text{C}) at the **corners of a square**
+* Four charges:
+  
+*  (+1.0 , \text{C})
+  
+*  at the **corners of a square**
   
 * Side of square: (1.0 , \text{m})
   
