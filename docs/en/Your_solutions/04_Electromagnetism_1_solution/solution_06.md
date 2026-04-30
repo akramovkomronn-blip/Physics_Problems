@@ -42,7 +42,7 @@ E_y = kq\left(\frac{y}{r_1^3} + 2\frac{y}{r_2^3}\right)
 
 ---
 
-# 2. Field on the **y-axis**: ( (0,y) )
+# 2. Field on the **y-axis**: $( (0,y) )$
 
 Here:
 $[
@@ -69,7 +69,7 @@ $[
 
 ---
 
-# 3. Field on the **x-axis**: ( (x,0) )
+# 3. Field on the **x-axis**: $( (x,0) )$
 
 $[
 E_y = 0
@@ -85,7 +85,7 @@ E_x = kq\left(\frac{x+a}{|x+a|^3} + 2\frac{x-a}{|x-a|^3}\right)
 
 # 4. Conditions for zero components
 
-### (i) (E_y = 0)
+### (i) $(E_y = 0)$
 
 From:
 $[
@@ -99,7 +99,7 @@ $[
 
 ---
 
-### (ii) (E_x = 0) (on x-axis)
+### (ii) $(E_x = 0) (on x-axis)$
 
 Solve:
 $[
@@ -110,13 +110,13 @@ This gives a point **between the charges**, closer to the smaller charge (q).
 
 ---
 
-### (iii) Total field ( \vec E = 0 )
+### (iii) Total field $( \vec E = 0 )$
 
 Requires both components zero → only possible on **x-axis**, at the solution of (E_x=0).
 
 ---
 
-# 5. Numerical calculation at ( (0,y) )
+# 5. Numerical calculation at $( (0,y) )$
 
 Given:
 
