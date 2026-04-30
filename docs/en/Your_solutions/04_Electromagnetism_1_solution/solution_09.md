@@ -8,13 +8,18 @@ $$\vec{F} = q(\vec{v} \times \vec{B})$$
 
 
 
-### 2. Calculate the Cross Product $($\vec{v} \times \vec{B}$)$
+### 2. Calculate the Cross Product        $$($\vec{v} \times \vec{B}$)$$
+
 We calculate the determinant of the matrix:
+
 $$\vec{v} \times \vec{B} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 2 & -4 & 1 \\ 1 & 2 & -1 \end{vmatrix}$$
 
 Expanding the determinant:
+
 * **$\hat{i}$ component:** $(-4)(-1) - (1)(2) = 4 - 2 = 2$
+* 
 * **$\hat{j}$ component:** $-[(2)(-1) - (1)(1)] = -[-2 - 1] = 3$
+* 
 * **$\hat{k}$ component:** $(2)(2) - (-4)(1) = 4 + 4 = 8$
 
 So, $\vec{v} \times \vec{B} = (2\hat{i} + 3\hat{j} + 8\hat{k})$
