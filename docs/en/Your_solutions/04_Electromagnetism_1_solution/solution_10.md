@@ -1,40 +1,60 @@
-To calculate the magnetic force exerted on a current-carrying wire, we use the formula for the magnetic force on a straight conductor:
+To find the magnetic force on a current-carrying wire, use the formula from the Lorentz force:
 
-$$F = ILB \sin(\theta)$$
+[
+F = B , I , L , \sin(\theta)
+]
 
-### 1. Identify the Constants
-* **Current ($I$):** $10 \text{ A}$
-* **Length ($L$):** $2.0 \text{ m}$
-* **Magnetic Field ($B$):** $0.5 \text{ T}$
+Where:
 
----
-
-### 2. Calculations for Each Angle
-
-
-
-**a) Angle is $90^\circ$ (Perpendicular)**
-When the wire is perpendicular to the field, the force is at its maximum because $\sin(90^\circ) = 1$.
-$$F = (10 \text{ A}) \cdot (2.0 \text{ m}) \cdot (0.5 \text{ T}) \cdot \sin(90^\circ)$$
-$$F = 10 \text{ N}$$
-
-**b) Angle is $45^\circ$**
-At this angle, we use $\sin(45^\circ) = \frac{\sqrt{2}}{2} \approx 0.707$.
-$$F = (10 \text{ A}) \cdot (2.0 \text{ m}) \cdot (0.5 \text{ T}) \cdot \sin(45^\circ)$$
-$$F = 10 \cdot 0.707$$
-$$F \approx 7.07 \text{ N}$$
-
-**c) Angle is $0^\circ$ (Parallel)**
-When the wire is parallel to the magnetic field, the force is zero because $\sin(0^\circ) = 0$.
-$$F = (10 \text{ A}) \cdot (2.0 \text{ m}) \cdot (0.5 \text{ T}) \cdot \sin(0^\circ)$$
-$$F = 0 \text{ N}$$
+* ( B = 0.5 , \text{T} ) (magnetic field)
+* ( I = 10 , \text{A} ) (current)
+* ( L = 2.0 , \text{m} ) (length of wire)
+* ( \theta ) = angle between wire and magnetic field
 
 ---
 
-### Summary Table
+### a) ( \theta = 90^\circ )
 
-| Angle ($\theta$) | Calculation | Force ($F$) |
-| :--- | :--- | :--- |
-| **$90^\circ$** | $10 \cdot 2 \cdot 0.5 \cdot 1$ | **$10 \text{ N}$** |
-| **$45^\circ$** | $10 \cdot 2 \cdot 0.5 \cdot 0.707$ | **$7.07 \text{ N}$** |
-| **$0^\circ$** | $10 \cdot 2 \cdot 0.5 \cdot 0$ | **$0 \text{ N}$** |
+[
+\sin(90^\circ) = 1
+]
+
+[
+F = 0.5 \times 10 \times 2.0 \times 1 = 10 , \text{N}
+]
+
+**Answer: 10 N**
+
+---
+
+### b) ( \theta = 45^\circ )
+
+[
+\sin(45^\circ) = \frac{\sqrt{2}}{2} \approx 0.707
+]
+
+[
+F = 0.5 \times 10 \times 2.0 \times 0.707 \approx 7.07 , \text{N}
+]
+
+**Answer: ≈ 7.07 N**
+
+---
+
+### c) ( \theta = 0^\circ )
+
+[
+\sin(0^\circ) = 0
+]
+
+[
+F = 0
+]
+
+**Answer: 0 N**
+
+---
+
+### Key takeaway
+
+The force depends on the sine of the angle, so it’s **maximum at 90°** and **zero when the wire is parallel to the field**.
