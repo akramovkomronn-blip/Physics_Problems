@@ -20,7 +20,7 @@ Where:
 
 ---
 
-### a) ( \theta = 90^\circ )
+### a) $( \theta = 90^\circ )$
 
 $[
 \sin(90^\circ) = 1
@@ -34,7 +34,7 @@ F = 0.5 \times 10 \times 2.0 \times 1 = 10 , \text{N}
 
 ---
 
-### b) ( \theta = 45^\circ )
+### b) $( \theta = 45^\circ )$
 
 
 
@@ -54,7 +54,7 @@ F = 0.5 \times 10 \times 2.0 \times 0.707 \approx 7.07 , \text{N}
 
 ---
 
-### c) ( \theta = 0^\circ )
+### c) $( \theta = 0^\circ )$
 
 
 
