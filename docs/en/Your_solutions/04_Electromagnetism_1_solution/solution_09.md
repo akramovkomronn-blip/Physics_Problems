@@ -6,9 +6,9 @@ $$\vec{F} = q(\vec{v} \times \vec{B})$$
 
 
 * **Charge ($q$):** For a proton, $q \approx 1.6 \times 10^{-19} \text{ C}$
-* 
+  
 * **Velocity ($\vec{v}$):** $(2\hat{i} - 4\hat{j} + \hat{k}) \text{ m/s}$
-* 
+  
 * **Magnetic Field ($\vec{B}$):** $(\hat{i} + 2\hat{j} - \hat{k}) \text{ T}$
 
 
@@ -21,10 +21,12 @@ $$\vec{v} \times \vec{B} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 2 & -4
 
 Expanding the determinant:
 
-* **$\hat{i}$ component:** $(-4)(-1) - (1)(2) = 4 - 2 = 2$
-* 
+* **$\hat{i}$ component
+  
+ :** $(-4)(-1) - (1)(2) = 4 - 2 = 2$
+  
 * **$\hat{j}$ component:** $-[(2)(-1) - (1)(1)] = -[-2 - 1] = 3$
-* 
+  
 * **$\hat{k}$ component:** $(2)(2) - (-4)(1) = 4 + 4 = 8$
 
 So, $\vec{v} \times \vec{B} = (2\hat{i} + 3\hat{j} + 8\hat{k})$
