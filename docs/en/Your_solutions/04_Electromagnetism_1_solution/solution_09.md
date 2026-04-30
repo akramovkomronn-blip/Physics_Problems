@@ -19,9 +19,7 @@ We calculate the determinant of the matrix:
 
 $$\vec{v} \times \vec{B} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 2 & -4 & 1 \\ 1 & 2 & -1 \end{vmatrix}$$
 
-Expanding the determinant:
-
-* **$\hat{i}$ component
+Expanding the determinant:* **$\hat{i}$ component
   
  :** $(-4)(-1) - (1)(2) = 4 - 2 = 2$
   
