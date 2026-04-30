@@ -11,7 +11,7 @@ Two charges:
 
 ---
 
-# 1. General field ( \vec E(x,y) )
+# 1. General field $( \vec E(x,y) )$
 
 Position vectors from charges to point ((x,y)):
 
@@ -160,7 +160,7 @@ $[
 
 ---
 
-# 6. Limit ( y \gg a )
+# 6. Limit $( y \gg a )$
 
 Then:
 $[
