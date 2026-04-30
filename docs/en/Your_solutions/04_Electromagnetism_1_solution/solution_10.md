@@ -2,11 +2,11 @@ To find the magnetic force on a current-carrying wire, use the formula from the 
 
 
 
-                                                     $[
-                                                      F = B , I , L , \sin(\theta)
-                                                     ]$
- 
+$[
+F = B , I , L , \sin(\theta)
+]$
 
+                                                 
 Where:
 
 * $( B = 0.5 , \text{T} )$ (magnetic field)
