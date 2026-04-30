@@ -6,12 +6,7 @@ First find the electron’s speed after being accelerated through the potential 
 
 
 
-The energy gained is:
-
-
-$[
-qV = \frac{1}{2} m v^2
-]$
+The energy gained is:                                                           $[qV = \frac{1}{2} m v^2]$
 
 For an electron:
 
