@@ -8,7 +8,7 @@ $$\vec{F} = q(\vec{v} \times \vec{B})$$
 
 
 
-### 2. Calculate the Cross Product        $$($\vec{v} \times \vec{B}$)$$
+### 2. Calculate the Cross Product        $($\vec{v} \times \vec{B}$)$
 
 We calculate the determinant of the matrix:
 
