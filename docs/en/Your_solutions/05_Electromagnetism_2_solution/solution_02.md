@@ -13,6 +13,7 @@ $$B = \frac{\mu_0 I}{2\pi r}$$
 Plugging in the values for one wire:
 
 $$B = \frac{(4\pi \times 10^{-7}) \times 5}{2\pi \times 0.05}$$
+
 $$B = \frac{2 \times 10^{-7} \times 5}{0.05} = \frac{10^{-6}}{0.05} = 2 \times 10^{-5} \text{ T}$$
 
 ### 3. Determining Direction and Total Field
