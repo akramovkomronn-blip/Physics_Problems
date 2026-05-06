@@ -2,7 +2,7 @@
 
 The wave moves in the **positive x-direction**.
 
-*(Tip: In the expression $$(kx - \omega t)$$, the minus sign means it's moving forward.)*
+*(Tip: In the expression $(kx - \omega t)$, the minus sign means it's moving forward.)*
 
 ### **2. Wavelength ($\lambda$)**
 
