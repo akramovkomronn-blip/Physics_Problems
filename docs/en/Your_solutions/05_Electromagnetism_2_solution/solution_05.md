@@ -36,7 +36,7 @@ $$W = 0.5 \times 3.54 \times 10^{-11} \times 250,000$$
 
 $$W = 4.425 \times 10^{-6} \text{ J}$$
 
-**Result:** $W \approx 4.43 \text{ \mu J}$
+
 
 **C. Electric Field Intensity ($E$)**
 
