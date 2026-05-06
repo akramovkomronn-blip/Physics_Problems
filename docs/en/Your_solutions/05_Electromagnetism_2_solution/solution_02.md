@@ -22,6 +22,7 @@ Using the **Right-Hand Rule**, we can determine the direction of the field lines
 Since both fields point in the same direction, we simply add their magnitudes:
 
 $$B_{total} = B_1 + B_2$$
+
 $$B_{total} = 2 \times 10^{-5} \text{ T} + 2 \times 10^{-5} \text{ T} = 4 \times 10^{-5} \text{ T}$$
 
 ---
