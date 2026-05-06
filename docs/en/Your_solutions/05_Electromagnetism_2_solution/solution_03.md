@@ -37,6 +37,6 @@ Where:
 ---
 
 ### Final Result
-The magnitude of the magnetic field at point $P$ is **$7.5 \times 10^{-7} \text{ T}$** (or $0.75 \text{ \mu T}$).
+The magnitude of the magnetic field at point $P$ is **$7.5 \times 10^{-7} \text{ T}$**
 
 The direction would be determined by the right-hand rule, pointing perpendicular to both the current direction and the vector $r$.
