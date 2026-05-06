@@ -28,5 +28,6 @@ $$B_{total} = 2 \times 10^{-5} \text{ T} + 2 \times 10^{-5} \text{ T} = 4 \times
 ---
 
 ### Final Result
-*   **Magnitude:** $4 \times 10^{-5} \text{ T}$ (or $40 \text{ \mu T}$)
+*   **Magnitude:** $4 \times 10^{-5} \text{ T}$
+  
 *   **Direction:** The field points in the same direction for both (e.g., "into the page" if the wires are oriented vertically with the first current going up).
