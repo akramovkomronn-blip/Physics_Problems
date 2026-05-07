@@ -18,7 +18,7 @@ $$n_1 \sin(\theta_1) = n_2 \sin(\theta_2)$$
 
 1.  **Set up the equation:**
    
-    $1.00 \times \sin(30^\circ) = 1.50 \times \sin(\theta_2)$
+   1                                                   $1.00 \times \sin(30^\circ) = 1.50 \times \sin(\theta_2)$
 
 3.  **Solve for $\sin(\theta_2)$:**
    
