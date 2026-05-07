@@ -1,9 +1,13 @@
 
-### 1. Variables and Constants
+### 1. Variables and Constants 
+
 *   **Current ($I$):** $5 \text{ A}$ for both wires.
-*   **Distance between wires ($d$):** $10 \text{ cm} = 0.1 \text{ m}$.
-*   **Distance to midpoint ($r$):** $5 \text{ cm} = 0.05 \text{ m}$.
-*   **Permeability of free space ($\mu_0$):** $4\pi \times 10^{-7} \text{ T}\cdot\text{m/A}$.
+  
+*   **Distance between wires              $d$):** $10 \text{ cm} = 0.1 \text{ m}$.
+
+*   **Distance to midpoint                ($r$):** $5 \text{ cm} = 0.05 \text{ m}$.
+  
+*   **Permeability of free space           ($\mu_0$):** $4\pi \times 10^{-7} \text{ T}\cdot\text{m/A}$.
 
 ### 2. Magnitude of the Field from One Wire
 The magnetic field $B$ at a distance $r$ from a long wire is given by:
